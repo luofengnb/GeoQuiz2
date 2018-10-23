@@ -7,6 +7,7 @@ package com.bignerdranch.android.geoquiz;
 public class Question {
     private int mTextResId;
     private boolean mAnswerTrue;
+    private String test ="hello";
 
     public Question(int textResId,boolean answerTrue){
         mAnswerTrue=answerTrue;
